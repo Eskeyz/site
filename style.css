@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css?family=Exo:400,700");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(-45deg, #e68f75, #e26796, #69c2e2, #54f5cf);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: auto;
+  font-family: "Exo", sans-serif;
+}
+
+.link a {
+  width: 300px;
+  height: 50px;
+  border: solid 2.5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  text-align: center;
+  padding-top: 10px;
+  display: block;
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(34, 33, 33);
+}
+
+.link a:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.header {
+  text-align: center;
+  font-size: large;
+  color: white;
+}
+
+.header h1 {
+  margin-bottom: -8px;
+  letter-spacing: 2px;
+}
+
+.header h2 {
+  color: white;
+  font-size: 15px;
+  margin-bottom: 35px;
+  letter-spacing: 2.5px;
+  animation: colorRotate 6s linear 0s infinite;
+}
+
+.header img {
+  width: 200px;
+  height: 200px;
+  margin-top: 35px;
+  border: 2px solid rgba(255, 255, 255, 0.219);
+  border-radius: 100%;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}
+
+.footer i {
+  color: rgb(255, 255, 255);
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes colorRotate {
+  from {
+    color: #0000ff;
+  }
+  10% {
+    color: #ff0000;
+  }
+  50% {
+    color: #00ff00;
+  }
+  75% {
+    color: #eeff00;
+  }
+  100% {
+    color: #0000ff;
+  }
+}
+
+@keyframes colorRotate1 {
+  from {
+    color: #0000ff;
+  }
+  10% {
+    color: #ff0000;
+  }
+  50% {
+    color: #00ff00;
+  }
+  75% {
+    color: #eeff00;
+  }
+  100% {
+    color: #0000ff;
+  }
+}
